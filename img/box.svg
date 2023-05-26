@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <circle cx="0.96" cy="0.96" r="0.96" transform="translate(11.185 2.932)" fill="#2174ea"/>
+  <path d="M0,4A4,4,0,1,1,4,8,4,4,0,0,1,0,4Z" transform="translate(4 4)" fill="#2174ea"/>
+  <path data-name="Shape" d="M4,16a4.214,4.214,0,0,1-4-4V4A4.214,4.214,0,0,1,4,0h8a4.214,4.214,0,0,1,4,4v8a4.214,4.214,0,0,1-4,4Z" fill="#2174ea"/>
+</svg>

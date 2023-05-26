@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="27.764" viewBox="0 0 30 27.764">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e2eeff"/>
+    </linearGradient>
+    <filter id="Path" x="0" y="0" width="18" height="27.764" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#101d2d" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path-2" x="12" y="0.001" width="18" height="27.763" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#101d2d" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="cards-4" transform="translate(3 2)">
+    <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#Path)">
+      <path id="Path-3" data-name="Path" d="M12,2.691,1.263.035A1,1,0,0,0,0,1V18a1,1,0,0,0,.737.965L12,21.764Z" transform="translate(3 2)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#Path-2)">
+      <path id="Path-4" data-name="Path" d="M11.607.2a1.012,1.012,0,0,0-.87-.17L0,2.69V21.763l11.263-2.8A1,1,0,0,0,12,18V1A1,1,0,0,0,11.607.2Z" transform="translate(15 2)" fill="rgba(226,238,255,0.64)"/>
+    </g>
+  </g>
+</svg>
